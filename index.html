@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validations in Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+           <img src="images/Form img.jpg" class="image">
+           <form onsubmit=" return buttonclick ()" action="home.html" class="form">
+            <h1>Hey There!</h1>
+            <p>Lets get started with your Account Set Up. </p>
+            <Input id="email" type="email"  placeholder="Enter your Email"></Input> <br>
+            <h6 id="emailerror"></h6><br>
+            <Input id="pass" type="password"  placeholder="Set a Password"></Input> <br>
+            <Input id="pas" type="password"  placeholder="Confirm Password"></Input> <br>
+            <button type="submit">Sign Up</button>
+            <a href="signup.html"><p>Log In Instead</p></a> 
+           </form>
+        </div>
+    </div>
+
+    <script defer src="script.js"></script>
+</body>
+
+
+</html>
